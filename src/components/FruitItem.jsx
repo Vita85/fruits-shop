@@ -6,7 +6,7 @@ function FruitItem({ promo, article, title, price, img }) {
       <img src={`./img/${img}.png`} alt="Pineapple" />
       <span>Артикул: {article}</span>
       <h2>{title}</h2>
-      <b>{price} <span className="italic">грн/шт</span></b>
+      <b>{price} <span className="italic">грн</span></b>
       <ItemBtn/>
     </div>
   );

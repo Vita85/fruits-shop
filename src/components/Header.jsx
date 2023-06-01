@@ -1,9 +1,8 @@
-// import logo from "./img/fruits.png"
 
 const Header = () => {
   return (
     <header>
-      <img src="./img/fruits.png" alt="Fruits" className="logo__img" />
+      {/* <img src="./img/fruits.png" alt="Fruits" className="logo__img" /> */}
       <div className="logo-img">Fruit Boutique</div>
       <ul>
         <li>Головна</li>
